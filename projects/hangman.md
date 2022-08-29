@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/dontleavemehangin.png
 title: "Hangman"
 date: 2021-04-23
 published: true
