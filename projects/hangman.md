@@ -6,7 +6,7 @@ title: "Hangman"
 date: 2021-04-23
 published: true
 labels:
-  - Game Dev
+  - Game Development
   - Python
 summary: "A graphical hangman game I created for AP Computer Science Principles."
 ---
