@@ -9,6 +9,8 @@ labels:
   - Javascript
 ---
 
+<img width=420 src="../img/Javascript-img.jpg">
+
 Javascript currently stands as one of the most popular programming languages, serving as one of the main languages of the World Wide Web. According to W3Techs, 98% of all websites use Javascript for client-side programming, making it an imperative language to learn for software engineers regardless of specialization. As an aspiring software engineer, I was properly introduced to Javascript in my Software Engineering class, and I finally understand why it is used so heavily for the Web. I have had previous experience with Javascript, but because I never fully committed myself to learning it, much about the language was confusing; however, after actually learning Javascript syntax and concepts, I realize that it is quite a powerful language. Compared to other languages, Javascript has many advantages, and it even makes “athletic” software engineering — solving timed software problems — much quicker and easier to produce.
 
 ## How does Javascript compare?
