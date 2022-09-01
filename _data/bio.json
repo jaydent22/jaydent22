@@ -7,7 +7,7 @@
     "phone": "808-277-0703",
     "website": "https://jaydent22.github.io",
     "summary": "I am pursuing a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "2246B N School St", "postalCode": "96819", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jaydent22", "url": "https://github.com/jaydent22" },
       { "network": "linkedin", "username": "Jayden Tactay", "url": "https://www.linkedin.com/in/jayden-tactay
@@ -104,16 +104,22 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "2 semester Dean List Student",
+      "date": "2021-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Dean's List distinction for Fall 2021 and Spring 2022. Awarded to students who: (1) earn a semester grade point average of 3.5 or higher based on 12 credits or more taken for a grade, and (2) do not receive grades of W, I, F, or NC for that semester."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Medical Lake High School Class of 2021 Valedictorian",
+      "date": "2021",
+      "awarder": "Medical Lake High School",
+      "summary": "Graduated top of the Medical Lake High School Class of 2021"
+    },
+    {
+      "title": "Spokane Scholar in Science",
+      "date": "2021",
+      "awarder": "Spokane Scholars Foundation",
+      "summary": "One of 150 students to be selected as a Spokane Scholar in 2021. More information can be found <a href="http://www.spokanescholars.com/becoming-a-scholar">here</a>."
     }
   ],
   "references": [
