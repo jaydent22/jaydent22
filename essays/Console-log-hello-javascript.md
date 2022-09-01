@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "console.log("Hello Javascript!");"
+title: 'console.log("Hello Javascript!");'
 # All dates must be YYYY-MM-DD format!
 date: 2022-08-31
 published: true
