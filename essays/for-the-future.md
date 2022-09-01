@@ -19,6 +19,8 @@ Initially, programming was a complex idea for me to understand. I was unable to 
 
 ## Code Versus Good Code
 
+<img width=300 src="../img/optimize-code.png">
+
 There is a difference between code and good code. Because it is a passion of mine, I strive to create the latter, so I seek optimization. Whether it be cleaner and more efficient code, or user-side improvements like user interface optimizations, I always look for ways to improve my code. When I learn faster or nicer ways of doing something, I try to apply it to whatever program I am working on to optimize it. There are benefits of optimization for users, so it is a useful skill for software engineers, but optimization is something that I find interesting and helpful regardless of whether I am employed.
 
 ## Looking Forward
