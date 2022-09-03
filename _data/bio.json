@@ -11,8 +11,7 @@
     "profiles": [
       { "network": "github", "username": "jaydent22", "url": "https://github.com/jaydent22" },
       { "network": "linkedin", "username": "Jayden Tactay", "url": "https://www.linkedin.com/in/jayden-tactay
-" },
-      { "network": "facebook", "username": "Jayden Tactay", "url": "https://www.facebook.com/jayden.tactay/" }
+" }
     ]
   },
   "interests": [
@@ -54,7 +53,7 @@
       "organization": "Teddy Bears with Heart",
       "website": "https://www.teddybearswithheart.com/",
       "position": "Volunteer",
-      "date": "2018-09",
+      "date": "2018-09-09",
       "summary": "Managed packing and shipping of donated teddy bears",
       "highlights": [
         "Guinness Book World Record for biggest single toy drive",
