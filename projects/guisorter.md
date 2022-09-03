@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/sorting-cover.png
+image: img/sorting.png
 title: "Hangman"
 date: 2021-04-23
 published: true
