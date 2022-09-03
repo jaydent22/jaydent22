@@ -2,11 +2,12 @@
 layout: project
 type: project
 image: img/sorting.png
-title: "Hangman"
+title: "Sorter GUI"
 date: 2021-04-23
 published: true
 labels:
-  - Game Development
+  - Algorithms
+  - Sorting
   - Python
 summary: "A sorter GUI that visually displays different sorting algorithms in action."
 ---
