@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/sorting.png
 title: "Sorter GUI"
-date: 2021-04-23
+date: 2021-10-24
 published: true
 labels:
   - Algorithms
