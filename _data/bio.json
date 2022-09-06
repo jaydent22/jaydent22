@@ -27,7 +27,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows OS", "Git/GitHub" ]
+      "keywords": [ "Windows OS", "Unix/Linux", "Git/GitHub" ]
     }
   ],
   "education": [
@@ -49,6 +49,17 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "Teddy Bears with Heart",
+      "website": "https://www.teddybearswithheart.com/",
+      "position": "Volunteer",
+      "date": "2019-11-09",
+      "summary": "Managed packing and shipping of donated teddy bears",
+      "highlights": [
+        "Guinness Book World Record for biggest single toy drive",
+        "Partnered with Seaside Police Department of Seaside, CA"
+      ]
+    },
     {
       "organization": "Teddy Bears with Heart",
       "website": "https://www.teddybearswithheart.com/",
