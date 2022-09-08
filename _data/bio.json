@@ -7,7 +7,7 @@
     "phone": "808-277-0703",
     "website": "https://jaydent22.github.io",
     "summary": "I am an aspiring software engineer pursuing a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2024.",
-    "location": { "address": "2246B N School St", "postalCode": "96819", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jaydent22", "url": "https://github.com/jaydent22" },
       { "network": "linkedin", "username": "Jayden Tactay", "url": "https://www.linkedin.com/in/jayden-tactay" }
@@ -51,7 +51,8 @@
     {
       "organization": "Eastern Washington Department of Veteran Affairs",
       "position": "Setup/teardown/security crew member",
-      "date": "2020-01",
+      "startdate": "2020-01",
+      "enddate": "2020-01",
       "summary": "The Veteran Stand Down was a charity event that provided veterans in the eastern Washington area with free medical screening, job and educational opportunites, clothing and supplies, and other social aid.",
       "highlights": [
         "Provided security and verified the veterans' benefits eligibility for the surplus store",
@@ -63,7 +64,8 @@
       "organization": "Teddy Bears with Heart",
       "website": "https://www.teddybearswithheart.com/",
       "position": "Volunteer",
-      "date": "2018-09-09",
+      "startdate": "2018-09-09",
+      "enddate": "2018-09-09",
       "summary": "Managed packing and shipping of donated teddy bears",
       "highlights": [
         "Guinness Book World Record for biggest single toy drive",
