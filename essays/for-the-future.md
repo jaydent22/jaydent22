@@ -6,7 +6,8 @@ title: "For the Future"
 date: 2022-08-31
 published: true
 labels:
-  - Javascript
+  - Software Engineering
+  - Learning
 ---
 
 <img width=420 src="../img/Future-computer.jpg">
