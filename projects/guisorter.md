@@ -56,4 +56,4 @@ Of course, I cannot call it "my project" without adding to the program in some w
 <img width=500 src="../img/unsortedgui.png">
 
 As of right now, this project is still ongoing. The code itself needs to formatted nicer, and many visual/layout improvements can still be made. I hope to add more sorts and features as my knowledge grows.
-```
+

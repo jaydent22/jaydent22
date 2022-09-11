@@ -84,13 +84,25 @@
       "title": "Medical Lake High School Class of 2021 Valedictorian",
       "date": "2021",
       "awarder": "Medical Lake High School",
-      "summary": "Graduated top of the Medical Lake High School Class of 2021"
+      "summary": "Graduated top of the Medical Lake High School Class of 2021."
     },
     {
       "title": "Spokane Scholar in Science",
       "date": "2021",
       "awarder": "Spokane Scholars Foundation",
       "summary": "One of 150 students to be selected as a Spokane Scholar in 2021. More information can be found on the Spokane Scholars website."
+    },
+    {
+      "title": "Washington State Honors Award",
+      "date": "2021",
+      "awarder": "State of Washington",
+      "summary": "The Washington State Honors Award honors the top ten percent of the current year's Washington State high school graduating class. More information can be found on the Washington Office of Superintendent of Public Instruction website."
+    },
+    {
+      "title": "National Honor Society Student",
+      "date": "2019-2021",
+      "awarder": "Medical Lake High School",
+      "summary": "National Honor Society is an organization for high school students. Membership is based on scholarship, leadership, service, and character. National Honor Society members do various community services and work to hone their leadership skills. More information can be found on the National Honor Society website."
     }
   ],
   "references": [
