@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "There Is a Method to the Madness"
 # All dates must be YYYY-MM-DD format!
-date: 2022-09-19
+date: 2022-09-22
 published: true
 labels:
   - Programming
