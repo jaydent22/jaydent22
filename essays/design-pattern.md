@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: ""
+title: "This Just In: Design Patterns"
 # All dates must be YYYY-MM-DD format!
 date: 2022-11-30
 published: true
@@ -18,7 +18,7 @@ Picture this: after finishing a long day of work as a software developer, you re
 
 The observer pattern outlines the problem of a set of objects, or "observers", that needs to be notified when a change of state/event occurs to another object, or the "subject". The general solution to the problem is as follows: the subject holds a collection of observers and notifies each observer of a change of state/event. If objects need to be notified of the subject's change of state, they subscribe to the subject, thereby joining its observer collection (akin to subscribing to a company newsletter). In the aforementioned example, news agencies (the subject) notify subscribed news networks/channels (the observers) of the event of receiving a new story, saving news networks the time of looking for stories themselves. Using the observer pattern, a recurring problem - which, as demonstrated, can even be applied outside of software development in fields like reporting - can new be solved much more efficiently by using a core solution that can be molded to solve each instance of the problem.
 
-<img width=500 src="../images/observer-pattern.png">
+<img width=500 src="../img/observer-pattern.png">
 
 ## Are they really applicable?
 
