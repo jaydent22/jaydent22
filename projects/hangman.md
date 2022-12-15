@@ -8,7 +8,7 @@ published: true
 labels:
   - Game Development
   - Python
-summary: "A graphical hangman game I created for AP Computer Science Principles."
+summary: "A graphical hangman game I created for AP Computer Science Principles that recreates the hangman game."
 ---
 
 <img width=200 src="../img/hangman.png">

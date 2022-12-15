@@ -49,11 +49,14 @@ def generate():
 
 ```
 <img width=500 src="../img/originalgui.png">
+
 ## My Additions
 
 Of course, I cannot call it "my project" without adding to the program in some way. The original tutorial only included Bubble Sort and Merge Sort, so from various online resources and knowledge gained from my computer science classes, I added more sorts, like QuickSort and Selection Sort. I added a feature to generate a uniform array for sorting instead of a completely randomized array each time (inspired by those sorting algorithm videos on YouTube). In addition, I added a feature to graph the various sorts using Pyplot, as I also wanted a visual comparison of the algorithms. 
 
 <img width=500 src="../img/unsortedgui.png">
+
+## Future Development
 
 As of right now, this project is still ongoing. The code itself needs to formatted nicer, and many visual/layout improvements can still be made. I hope to add more sorts and features as my knowledge grows.
 
