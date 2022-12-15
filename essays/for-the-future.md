@@ -4,7 +4,7 @@ type: essay
 title: "For the Future"
 # All dates must be YYYY-MM-DD format!
 date: 2022-08-31
-published: false
+published: true
 labels:
   - Software Engineering
   - Learning

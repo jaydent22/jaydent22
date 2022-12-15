@@ -9,7 +9,6 @@ labels:
   - Software Engineering
   - JavaScript
   - HTML/CSS
-  - GitHub
 summary: "A program I developed as my ICS 314 final project that allows users to reserve parking stalls in the UH Manoa Zone 20 parking structure."
 ---
 
