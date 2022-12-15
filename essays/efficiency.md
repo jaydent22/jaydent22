@@ -11,7 +11,7 @@ labels:
   - Design Patterns
 ---
 
-As I write this, Fall 2022 is nearing its end, and finals week is in high-gear. Thankfully, my ICS 314 course has no final "exam", allowing me to redirect my stress to other finals (&ast;cough cough&ast; PHYS 272 and ICS 311 &ast;cough cough&ast;). Looking back at this semester, ICS 314 is definitely one of the most fun and helpful courses I have taken throughout college. Apart from learning new programming languages like HTML, CSS, and JavaScript ("programming" languages is used very liberally) to create countless mockups and interactive pages with the new programming languages, I have, more importantly, learned the idea of efficiency through many concepts, namely coding standards and design patterns, that are fundamental not only for software engineering, but for work of all varieties.
+As I write this, Fall 2022 is nearing its end, and finals week is in high-gear. Thankfully, my ICS 314 course has no final "exam", allowing me to redirect my stress to other finals (*cough cough* PHYS 272 and ICS 311 *cough cough*). Looking back at this semester, ICS 314 is definitely one of the most fun and helpful courses I have taken throughout college. Apart from learning new programming languages like HTML, CSS, and JavaScript ("programming" languages is used very liberally) to create countless mockups and interactive pages with the new programming languages, I have, more importantly, learned the idea of efficiency through many concepts, namely coding standards and design patterns, that are fundamental not only for software engineering, but for work of all varieties.
 
 ## Coding Standards
 
