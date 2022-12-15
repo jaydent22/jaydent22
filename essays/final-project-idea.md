@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Final Project Idea: That's My Spot"
 date: 2022-11-01
-published: true
+published: false
 labels:
 - Software Engineering
 - Meteor
