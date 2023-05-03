@@ -49,20 +49,7 @@
       ]
     }
   ],
-  "experiences": [
-    {
-      "organization": "University of Hawaii at Manoa",
-      "position": "ICS 111 Assistant Teaching Assistant",
-      "startdate": "2023-01-09",
-      "enddate": "2023-05-12",
-      "summary": "Assisted students in ICS 111 with course content, assisted TA with lab management",
-      "highlights": [
-        "Assisted students with programming assignments",
-        "Explained computer science concepts to newly exposed students"
-      ]
-    }
-  ],
-  "volunteer": [
+  "activities": [
     {
       "organization": "Eastern Washington Department of Veteran Affairs",
       "position": "Setup/teardown/security crew member",
@@ -85,6 +72,17 @@
       "highlights": [
         "Guinness Book World Record for biggest single toy drive",
         "Partnered with Seaside Police Department of Seaside, CA"
+      ]
+    },
+    {
+      "organization": "University of Hawaii at Manoa",
+      "position": "ICS 111 Assistant Teaching Assistant",
+      "startdate": "2023-01-09",
+      "enddate": "2023-05-12",
+      "summary": "Assisted students in ICS 111 with course content, assisted TA with lab management",
+      "highlights": [
+        "Assisted students with programming assignments",
+        "Explained computer science concepts to newly exposed students"
       ]
     }
   ],
