@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "activities": [
+  "volunteer": [
     {
       "organization": "Eastern Washington Department of Veteran Affairs",
       "position": "Setup/teardown/security crew member",
@@ -82,7 +82,7 @@
       "summary": "Assisted students in ICS 111 with course content, assisted TA with lab management",
       "highlights": [
         "Assisted students with programming assignments",
-        "Explained computer science concepts to newly exposed students"
+        "Explained computer science concepts to new students"
       ]
     }
   ],
