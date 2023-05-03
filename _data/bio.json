@@ -43,7 +43,22 @@
         "Discrete Mathematics II",
         "Program Structure",
         "Algorithms",
-        "Software Engineering I"
+        "Software Engineering I",
+        "Database Systems I",
+        "Operating Systems"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "organization": "University of Hawaii at Manoa",
+      "position": "ICS 111 Assistant Teaching Assistant",
+      "startdate": "2023-01-09",
+      "enddate": "2023-05-12",
+      "summary": "Assisted students in ICS 111 with course content, assisted TA with lab management",
+      "highlights": [
+        "Assisted students with programming assignments",
+        "Explained computer science concepts to newly exposed students"
       ]
     }
   ],
@@ -75,10 +90,10 @@
   ],
   "awards": [
     {
-      "title": "2 semester Dean List Student",
+      "title": "3 semester Dean List Student",
       "date": "2021-Present",
       "awarder": "University of Hawaii at Manoa",
-      "summary": "Dean's List distinction for Fall 2021 and Spring 2022. Awarded to students who: (1) earn a semester grade point average of 3.5 or higher based on 12 credits or more taken for a grade, and (2) do not receive grades of W, I, F, or NC for that semester."
+      "summary": "Dean's List distinction for Fall 2021, Spring 2022, and Fall 2022. Awarded to students who: (1) earn a semester grade point average of 3.5 or higher based on 12 credits or more taken for a grade, and (2) do not receive grades of W, I, F, or NC for that semester."
     },
     {
       "title": "Medical Lake High School Class of 2021 Valedictorian",
