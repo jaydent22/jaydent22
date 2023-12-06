@@ -1,0 +1,154 @@
+{
+  "basics": {
+    "name": "Jayden Tactay",
+    "label": "Student",
+    "picture": "https://github.com/jaydent22.png",
+    "email": "jctactay@hawaii.edu",
+    "phone": "808-277-0703",
+    "website": "https://jaydent22.github.io",
+    "summary": "I am an aspiring software engineer pursuing a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "jaydent22", "url": "https://github.com/jaydent22" },
+      { "network": "linkedin", "username": "Jayden Tactay", "url": "https://www.linkedin.com/in/jayden-tactay" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Development" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Machine Learning" },
+    { "name": "Robotics" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "Bootstrap", "React", "Meteor", "MongoDB" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows OS", "Unix/Linux", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2021-08-23",
+      "endDate": "Present",
+      "courses": [
+        "Intro to Computer Science I",
+        "Discrete Mathematics I",
+        "Intro to Computer Science II",
+        "Discrete Mathematics II",
+        "Program Structure",
+        "Algorithms",
+        "Software Engineering I",
+        "Database Systems I",
+        "Operating Systems"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Manoa",
+      "position": "ICS 141 Lab Assistant",
+      "website": "",
+      "startDate": "2023-08-14",
+      "endDate": "Present",
+      "summary": "Assisted students with coursework during ICS 141 recitations and additional office hours ",
+      "highlights": [
+        "Attend and support students in recitation sessions",
+        "Assist in the development of curricular support materials",
+        "Hold additional office hours in either the Natural Sciences Emporium or ICS Computing Laboratories"
+      ]
+    },
+    {
+      "company": "UH Manoa",
+      "position": "ICS 111 Lab Assistant",
+      "website": "",
+      "startDate": "2023-09-07",
+      "endDate": "Present",
+      "summary": "Assisted students with coursework during ICS 111 lab hours and additional office hours ",
+      "highlights": [
+        "Attend and support students in recitation sessions",
+        "Assist in the development of curricular support materials",
+        "Hold additional office hours in either the Natural Sciences Emporium or ICS Computing Laboratories"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Eastern Washington Department of Veteran Affairs",
+      "position": "Setup/teardown/security crew member",
+      "startdate": "2020-01",
+      "enddate": "2020-01",
+      "summary": "The Veteran Stand Down was a charity event that provided veterans in the eastern Washington area with free medical screening, job and educational opportunites, clothing and supplies, and other social aid.",
+      "highlights": [
+        "Provided security and verified the veterans' benefits eligibility for the surplus store",
+        "Helped with the cleanup/teardown after the event",
+        "Attended by 400 military veterans, with over 200 being homeless"
+      ]
+    },
+    {
+      "organization": "Teddy Bears with Heart",
+      "website": "https://www.teddybearswithheart.com/",
+      "position": "Volunteer",
+      "startdate": "2018-09-09",
+      "enddate": "2018-09-09",
+      "summary": "Managed packing and shipping of donated teddy bears",
+      "highlights": [
+        "Guinness Book World Record for biggest single toy drive",
+        "Partnered with Seaside Police Department of Seaside, CA"
+      ]
+    },
+    {
+      "organization": "University of Hawaii at Manoa",
+      "position": "ICS 111 Assistant Teaching Assistant",
+      "startdate": "2023-01-09",
+      "enddate": "2023-05-12",
+      "summary": "Assisted students in ICS 111 with course content, assisted TA with lab management",
+      "highlights": [
+        "Assisted students with programming assignments",
+        "Explained computer science concepts to new students"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "3 semester Dean List Student",
+      "date": "2021-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Dean's List distinction for Fall 2021, Spring 2022, and Fall 2022. Awarded to students who: (1) earn a semester grade point average of 3.5 or higher based on 12 credits or more taken for a grade, and (2) do not receive grades of W, I, F, or NC for that semester."
+    },
+    {
+      "title": "Medical Lake High School Class of 2021 Valedictorian",
+      "date": "2021",
+      "awarder": "Medical Lake High School",
+      "summary": "Graduated top of the Medical Lake High School Class of 2021."
+    },
+    {
+      "title": "Spokane Scholar in Science",
+      "date": "2021",
+      "awarder": "Spokane Scholars Foundation",
+      "summary": "One of 150 students to be selected as a Spokane Scholar in 2021. More information can be found on the Spokane Scholars website."
+    },
+    {
+      "title": "Washington State Honors Award",
+      "date": "2021",
+      "awarder": "State of Washington",
+      "summary": "The Washington State Honors Award honors the top ten percent of the current year's Washington State high school graduating class. More information can be found on the Washington Office of Superintendent of Public Instruction website."
+    },
+    {
+      "title": "National Honor Society Student",
+      "date": "2019-2021",
+      "awarder": "Medical Lake High School",
+      "summary": "National Honor Society is an organization for high school students. Membership is based on scholarship, leadership, service, and character. National Honor Society members do various community services and work to hone their leadership skills. More information can be found on the National Honor Society website."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

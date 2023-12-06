@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="This Just In: Design Patterns | Jayden Tactay | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/jaydent22.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jayden Tactay | Professional Portfolio">
+    <meta property="og:url" content="https://jaydent22.github.io/essays/design-pattern.html">
+    <meta property="og:title" content="This Just In: Design Patterns | Jayden Tactay | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/jaydent22.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>This Just In: Design Patterns | Jayden Tactay | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Jayden Tactay</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">This Just In: Design Patterns</h1>
+  <span class="date">30 Nov 2022</span>
+  <hr>
+  <p>Developers encounter problems of some sort on a daily basis, especially with programming. Something fails to compile, a program does not run as it is intended, an error somewhere crashes a program. The recurrence of these issues eventually leads to developers facing the same types of issues, and dealing with each specific instance of the issue can become quite tedious. Rather than having to devise a new solution for the same issue, it would be much more optimal (and much less time-consuming) to use an existing general solution that you can change to fit your current problem. Luckily, these general solutions already exist: design patterns. As architect Christoper Alexander described, a design pattern “describes a problem that occurs over and over in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice.” This description is very wordy, though, so here is an example.</p>
+
+<h2 id="the-observer-design-pattern">The Observer Design Pattern</h2>
+
+<p>Picture this: after finishing a long day of work as a software developer, you return home, weary and famished. You open the news app on your phone to catch up with the happenings of the world while you spent twelve hours attempting to center a div, only to find that every major news network is reporting on social media platform Tweeter losing almost 50% of its employees following its acquisition by business magnate Melon Busk. <em>How does every network report on the exact same topic?</em> you wonder. After doing some research, you learn that those networks subscribe to a news agency that notify the networks whenever a new story is received. <em>Wow</em>, you think to yourself, <em>this is just like an observer design pattern!</em></p>
+
+<p>The observer pattern outlines the problem of a set of objects, or “observers”, that need to be notified when a change of state/event occurs to another object, or the “subject”. The general solution to the problem is as follows: the subject holds a collection of observers and notifies each observer when there is a change of state/event. If objects need to be notified of the subject’s change of state, they subscribe to the subject, thereby joining its observer collection (akin to subscribing to a company newsletter). In the aforementioned example, news agencies (the subject) notify subscribed news networks/channels (the observers) of the event of receiving a new story, saving news networks the time of looking for stories themselves. Using the observer pattern, a recurring problem - which, as demonstrated, can even be applied outside of software development in fields like reporting - can now be solved much more efficiently by using a core solution that can be molded to solve each instance of the problem.</p>
+
+<p><img width="500" src="../img/observer-pattern.png" /></p>
+
+<h2 id="are-they-really-applicable">Are they really applicable?</h2>
+
+<p>Though the news example is outside the field of development, design patterns are indeed applicable in programming, even in the simple case of pressing a button. For example, my group’s final project for ICS 314, involving parking reservation for UH Manoa’s Zone 20 parking structure, uses an event listener that is notified when a button changes its state from “unpressed” to “pressed”, invoking a method that deletes the stall with which the button is associated. React hooks, like useTracker(), subscribe React components to Meteor data, allowing those React component observers to update whenever a change of state is reported by the Meteor data subject (e.g., displaying the updated stall reservations on a table after removing a stall). Although we could have devised two different solutions to two somewhat unrelated issues, realizing the applicability of the observer problem/design pattern allows for the use of one general solution to apply in two different ways, saving time that can be allocated for other purposes (like centering a div).</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Due to various time constraints, developers often need to churn out applications quickly, and with the nature of the development field, these applications often encounter the same issues. Learning to notice and apply design patterns to solve these repeating issues saves time and resources for solving more unique or important problems. It is much better to use what already exists than recreating it every time. As is said, “there is no need to reinvent the wheel.”</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

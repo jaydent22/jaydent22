@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Hangman | Jayden Tactay | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/jaydent22.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jayden Tactay | Professional Portfolio">
+    <meta property="og:url" content="https://jaydent22.github.io/projects/hangman.html">
+    <meta property="og:title" content="Hangman | Jayden Tactay | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/jaydent22.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Hangman | Jayden Tactay | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Jayden Tactay</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Hangman</h1>
+ <p><img width="200" src="../img/hangman.png" /></p>
+
+<p>I created a graphical hangman game with added functionality for the Create Task portion of the AP Computer Science Principles course. The project is written entirely in Python and utilizes the Tkinter GUI interface. Provided is some of the GUI programming required to display the (very crude) screen above:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>self.letter_frm = tk.Frame(self.game_frm,width=100,height=400,bg="#5cdb95")
+self.letter_frm.grid(row=2,column=0)
+self.letter_frm.pack_propagate(0)
+
+self.letters = tk.Message(self.letter_frm,width=100,fg="white",bg="#5cdb95")
+self.letters.pack()
+
+self.canv_frm = tk.Frame(self.game_frm, width=300,height=400)
+self.canv_frm.grid(row=2,column=1)
+self.canv_frm.pack_propagate(0)
+self.canvas = tk.Canvas(self.canv_frm, width=300,height=400)
+self.canvas.pack()
+self.turtle = draw.Drawer(self.canvas)
+self.turtle.draw()
+
+self.power_frm = tk.Frame(self.game_frm,width=100,height=400,bg="#5cdb95")
+self.power_frm.grid(row=2,column=2)
+self.power_frm.pack_propagate(0)
+</code></pre></div></div>
+
+<h2 id="how-to-play">How To Play</h2>
+
+<p>A blank word is given to a player, who then enters letters in an attempt to guess the word. For each correct letter guessed, the game inputs the letter in the correct position(s) of the word; for each incorrect letter, a portion of a hanging stick figure is drawn. If players correctly guess the word, they win the round and are awared coins. If players are unable to guess the word before the full hangman is drawn, they lose. Players can select from three difficulties to play in, with each difficulty changing the length and complexity of the potential word being played and the amount of coins awarded for winning. Power-ups can be bought using the coins awarded, allowing the player to erase parts of the hangman, display a correct letter, or display incorrect letters.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="console.log(&quot;Hello JavaScript!&quot;); | Jayden Tactay | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/jaydent22.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jayden Tactay | Professional Portfolio">
+    <meta property="og:url" content="https://jaydent22.github.io/essays/Console-log-hello-javascript.html">
+    <meta property="og:title" content="console.log(&quot;Hello JavaScript!&quot;); | Jayden Tactay | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/jaydent22.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>console.log("Hello JavaScript!"); | Jayden Tactay | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Jayden Tactay</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">console.log("Hello JavaScript!");</h1>
+  <span class="date">31 Aug 2022</span>
+  <hr>
+  <p><img width="420" src="../img/Javascript-img.jpg" /></p>
+
+<p>JavaScript currently stands as one of the most popular programming languages, serving as one of the main languages of the World Wide Web. According to W3Techs, 98% of all websites use JavaScript for client-side programming, making it an imperative language to learn for software engineers regardless of specialization. As an aspiring software engineer, I was properly introduced to JavaScript in my Software Engineering class, and I finally understand why it is used so heavily for the Web. I have had previous experience with JavaScript, but because I never fully committed myself to learning it, much about the language was confusing; however, after actually learning JavaScript syntax and concepts, I realize that it is quite a powerful language. Compared to other languages, JavaScript has many advantages, and it even makes “athletic” software engineering — solving timed software problems — much quicker and easier to produce.</p>
+
+<h2 id="how-does-javascript-compare">How does JavaScript compare?</h2>
+
+<p>One major standout of JavaScript compared to other languages like Java and C/C++ is its use of first-class functions. JavaScript treats functions (reusable pieces of code) as first-class citizens, meaning they can be passed as arguments to other functions, assigned to variables, and returned by other functions, among other things. This makes working with functions easier and provides more uses of functions, making certain tasks easier to complete. In addition, JavaScript is also a weakly-typed and dynamic language, using implicit type conversion and the keywords var, let, and const to declare variables instead of declaring them with their data type like in Java and C/C++. This makes comparisons much easier as the variables are assigned their data types at run-time (i.e., when the program starts running) and treated as different types based on the situation. Programmers can write programs much quicker while worrying less about type declaration and debugging for type errors (of course, dynamic and weak typing do have their drawbacks, like unpredictability, but the simpler typing makes programming much more efficient for programmers). The only other language I have experience with that shares these traits is Python, and the only notable difference from JavaScript is its more “readable” syntax. JavaScript’s ease of use helps with creating programs, especially when those programs have time constraints.</p>
+
+<h2 id="javascript-in-action">JavaScript in action</h2>
+
+<p>In my Software Engineering class, we are assigned Workouts of the Day (WODs). WODs are coding problems to be solved in a limited amount of time. The WODs teach us students quick problem solving skills, which I find useful for employment preparation. I also enjoy creating programs and algorithms to solve problems (making the completion of WODs more enjoyable and satisfying), but the strong typing and strict syntax of languages like Java makes the coding process longer; however, JavaScript’s weak typing allows me to focus less on specific coding details and more on implementation of my solution, saving time and brain power for the more important things (potentially at the cost of readability and form, of course). Certain JavaScript capabilities allow for much quicker and cleaner solutions to WODs. For example, Professor Philip Johnson of the University of Manoa at Hawaii provided the following function to determine if a string has repeating characters:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function isUnique(str) {
+  let chars = {};
+  for (let i = 0; i &lt; str.length; i++) {
+    if (chars[str[i]]) {
+      return false;
+    }
+    chars[str[i]] = true;
+    }
+  return true;
+}
+</code></pre></div></div>
+
+<p>In the above function, an empty object <code class="language-plaintext highlighter-rouge">chars</code> is created. A <code class="language-plaintext highlighter-rouge">for</code> loop iterates through the string and looks for each character in the <code class="language-plaintext highlighter-rouge">chars</code> object. If it is found (as in, if the string already contains that character), the function returns <code class="language-plaintext highlighter-rouge">false</code>. If not, the character is added to the <code class="language-plaintext highlighter-rouge">chars</code> object, and the program returns <code class="language-plaintext highlighter-rouge">true</code> if all characters are unique. The ability for JavaScript to access attributes in an object and add attributes to an object with such simple syntax allows for a clean and efficient solution to the problem of finding duplicates in a given string. Simplifying complex tasks and decreasing overall time spent coding makes JavaScript such a powerful language.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>My inevitable introduction to JavaScript (as a software engineer, it was bound to happen eventually) was a very positive one. Its functionality and convenience stood out to me, especially transitioning from Java. Completing athletic software engineering problems using JavaScript further highlights the language’s strengths and abilities. Learning JavaScript was a major stepping stone on my way to becoming a full-fledged software engineer, and I am now much more confident in entering the industry that uses such a good language. With JavaScript serving as its backbone, it is no wonder that the Web is as great as it is.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

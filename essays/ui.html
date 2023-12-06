@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="What's On Your 'Face? | Jayden Tactay | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/jaydent22.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jayden Tactay | Professional Portfolio">
+    <meta property="og:url" content="https://jaydent22.github.io/essays/ui.html">
+    <meta property="og:title" content="What's On Your 'Face? | Jayden Tactay | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/jaydent22.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>What's On Your 'Face? | Jayden Tactay | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Jayden Tactay</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">What's On Your 'Face?</h1>
+  <span class="date">06 Oct 2022</span>
+  <hr>
+  <p>HTML and CSS are the languages of the Web. HTML lays the basic foundation of a page and CSS heavily supports the page with its styling capabilities. Going hand-in-hand, these two languages create almost the entirety of the web, but there is a problem: styling with CSS alone is quite difficult. Tasks like changing the basic structured format of HTML to simply spacing and placing elements properly is arduous and confusing to implement in a visually appealing manner with pure CSS. HTML cannot rely solely on CSS for visual appearance; with a language as awkward as CSS, HTML requires extra framework to support the look of its pages. UI frameworks provide CSS classes and Javascript functions to ease the process of web design. Adding visually appealing styling and automatic formatting, frameworks abstract much of the difficulty that goes into making a web page. Basic CSS can even work with frameworks to specify a design that the framework does not supply or to edit a framework class.</p>
+
+<h2 id="boostrap">Boostrap</h2>
+
+<p>One such UI framework is Bootstrap. Bootstrap emphasizes responsive development, which allows the display of a web page to change depending on the size of the screen from which it is being displayed. To do this, Bootstrap facilitates the implementation of resizing and reformatting web pages when the window is resized or when a smaller screen is used to view a larger web page (most notably on mobile devices).</p>
+
+<p>Using Bootstrap itself is by no means easy, what with having to learn the names of the provided classes and their uses, how to properly format subcomponents in larger ones, what can and cannot be formatted with Bootstrap. The positioning of components can be messed up by using a class in the wrong HTML element, classes can sometimes operate differently from how you expect or want them to operate, omitting certain classes entirely ruins the entire display of the page. Learning Bootstrap could even be attributed to learning a new coding language, so there is definitely a learning curve involved. Once you do learn how to use Bootstrap, however, it becomes a very powerful framework. For example, one Bootstrap class, the <code class="language-plaintext highlighter-rouge">container</code>, adds automatic padding and margins to its components (relative to the root element), spacing them from the edge of the screen (as they usually appear in HTML). To further manipulate spacing, components can use the <code class="language-plaintext highlighter-rouge">p</code> and <code class="language-plaintext highlighter-rouge">m</code> classes followed by a dash and a number to change their padding and margins, respectively. Additional specifiers can precede the dash to restrict the padding/margin to one direction/plane (e.g., <code class="language-plaintext highlighter-rouge">px-2</code>; more information can be found <a href="https://getbootstrap.com/docs/4.0/utilities/spacing/">here</a>). The easy-to-implement spacing classes are just one example of Bootstrap’s abstraction of styling, saving developers from having to manually space elements themselves and fiddle with the exact spacing of elements.</p>
+
+<h2 id="bootstrap-in-action">Bootstrap in Action</h2>
+
+<p>Provided below is a web page styled with basic CSS:</p>
+
+<p><img width="350" src="../img/ui/basic.png" /></p>
+
+<p>The web page consists of a horizontal navigation bar, an introduction section, and 3 columns of text. Not much is going on with the website, and subjectively speaking, it is not very appealing; the website is very basic. CSS was used to style the color of the background and text, format the horizontal navigation bar, and split the text into columns, but the navigation bar is off-center and the central Chrome column is wider than the other two columns. Meanwhile, here is the same web page styled with Bootstrap 5:</p>
+
+<p><img width="350" src="../img/ui/bootstrap.png" /></p>
+
+<p>Compared to the CSS page, the Bootstrap page is much more uniform and visually appealing. Bootstrap’s <code class="language-plaintext highlighter-rouge">navbar</code> class makes navigation bars much easier to implement (as seen with the black bar on the top). The entire body element is placed in a <code class="language-plaintext highlighter-rouge">container</code> class, adding the uniform padding that had to be manually specified in the CSS page. Using Bootstrap’s grid system, the columns of text are evenly sized and spaced.</p>
+
+<p>Previously mentioned was Bootstrap’s emphasis on responsive web design. Provided below is a minimized screen displaying the CSS web page and Bootstrap web page, respectively:</p>
+
+<p><img width="250" src="../img/ui/nonresponsive.png" />
+<img width="250" src="../img/ui/responsive.png" /></p>
+
+<p>In a smaller screen, the CSS page becomes jumbled, with the columns getting thrown out of place. The middle and right columns are forced under the left one and begin to interlace. Meanwhile, the Bootstrap page remains uniformly formatted in a smaller screen, with the navigation bar and the columns resizing appropriately. Not shown in the CSS page image is the navigation, which does not resize like the Bootstrap bar does.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Bootstrap is initially hard to use. Invoking everything with classes is different from standard CSS styling, and having to learn the name and functionality of each class can be difficult. Some classes need to be manipulated to produce desirable results. Learning Bootstrap may be a task in and of itself, but the results speak for themselves. Do not let the difficulty of framework development keep you from using such a powerful tool. After all, there are no shortcuts to excellence.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
