@@ -49,6 +49,34 @@
       ]
     }
   ],
+  "work": [
+    {
+      "company": "UH Manoa",
+      "position": "ICS 141 Lab Assistant",
+      "website": "",
+      "startDate": "2023-08-14",
+      "endDate": "Present",
+      "summary": "Assisted students with coursework during ICS 141 recitations and additional office hours ",
+      "highlights": [
+        "Attend and support students in recitation sessions",
+        "Assist in the development of curricular support materials",
+        "Hold additional office hours in either the Natural Sciences Emporium or ICS Computing Laboratories"
+      ]
+    },
+    {
+      "company": "UH Manoa",
+      "position": "ICS 111 Lab Assistant",
+      "website": "",
+      "startDate": "2023-09-07",
+      "endDate": "Present",
+      "summary": "Assisted students with coursework during ICS 111 lab hours and additional office hours ",
+      "highlights": [
+        "Attend and support students in recitation sessions",
+        "Assist in the development of curricular support materials",
+        "Hold additional office hours in either the Natural Sciences Emporium or ICS Computing Laboratories"
+      ]
+    }
+  ],
   "volunteer": [
     {
       "organization": "Eastern Washington Department of Veteran Affairs",
