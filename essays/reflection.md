@@ -11,7 +11,13 @@ labels:
   - React
   - Bootstrap
 ---
-<img src="../img/genericsoftware.png" width=100% height=auto>
+<style>
+img {
+    width: 100%;
+    height: auto;
+}
+</style>
+<img src="../img/genericsoftware.png">
 
 Another semester, another high-stress preparation period for finals week --- scratch that, another high-stress 16 weeks. As I seek to wrap up my undergraduate studies and graduate next Spring semester, before moving on to full-time graduate school for University of Hawaii's five-year Bachelor and Master Program, this semester has seen one of my highest workloads, and ICS 414 played a major part. Given the scale of the project the class was assigned to convert from React Semantic UI to React Bootstrap and the --- no offense to the original developers of the project --- somewhat poor codebase, I had my work cut out for me. Combine that with the entire semester between taking ICS 314 and ICS 414, and you get long, frequent periods of coding and review (of a framework and an entire programming language) on the fly. At the same time, however, ICS 414 is one of the best courses I have taken throughout my college experience in terms of enjoyment and practicality. Something about working on pieces of application design alongside team members and seeing it all come together to form a working project is so satisfying. Working with a project hands-on and seeing a piece of code visually come to life is also a wonderful sight.
 
