@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "There Is a Method to the Madness"
+title: "A Method to the Madness"
 # All dates must be YYYY-MM-DD format!
 date: 2022-09-22
 published: true

@@ -9,7 +9,7 @@ labels:
   - Software Engineering
   - JavaScript
   - HTML/CSS
-summary: "A program I developed as my ICS 314 final project that allows users to reserve parking stalls in the UH Manoa Zone 20 parking structure."
+summary: "A program developed for ICS 314 that allows users to reserve parking stalls in the UH Manoa Zone 20 parking structure."
 ---
 
 <img src="../img/landing-top.png">

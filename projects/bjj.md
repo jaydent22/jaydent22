@@ -26,5 +26,5 @@ Even outside of training for competitions, I like training and being on the BJJ 
 
 ## Today
 
-As of September 2022, I am a blue belt (the belt system for adults is white, blue, purple, brown and black), but I hope to reach the rank of black belt and potentially teach others what I have learned through my years of training.
+As of November 2023, I am a blue belt (the belt system for adults is white, blue, purple, brown and black), but I hope to reach the rank of black belt and potentially teach others what I have learned through my years of training.
 
