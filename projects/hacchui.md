@@ -12,7 +12,13 @@ labels:
 summary: "A program developed during ICS 414 that allows for easier team management for the Hawaii Annual Code Challenge."
 ---
 
-<img alt="HACC-Hui landing page" src="../img/hacchui.png" width=100% height=auto>
+<style>
+img {
+    width: 100%;
+    height: auto;
+}
+</style>
+<img alt="HACC-Hui landing page" src="../img/hacchui.png">
 
 The Hawaii Annual Code Challenge (HACC), based on traditional hackathons, is a month-long challenge held yearly by the State of Hawaii to create a technical solution to modernizing state functions and services. The HACC offers a range of challenges for participants, either independent or organized into teams, to choose from and solve. HACC-Hui facilitates the creation and management of teams for participation in the HACC. Fall 2023 ICS 414 students were tasked with converting the project, which was created in the Semantic UI React framework, into the React Bootstrap framework.
 

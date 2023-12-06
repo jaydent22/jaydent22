@@ -12,7 +12,13 @@ labels:
 summary: "A program developed for ICS 314 that allows users to reserve parking stalls in the UH Manoa Zone 20 parking structure."
 ---
 
-<img src="../img/landing-top.png" width=100% height=auto>
+<style>
+img {
+    width: 100%;
+    height: auto;
+}
+</style>
+<img src="../img/landing-top.png">
 
 Finding a place to park at UH Manoa is extremely difficult. Although there are many parking zones, they are often inconvenient, and they tend to fill up quickly. That's My Spot! aims to facilitate the parking process on campus by allowing users to reserve a stall, ensuring them a parking space when they arrive to campus.
 
