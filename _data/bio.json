@@ -22,20 +22,32 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "Bootstrap", "React", "Meteor", "MongoDB" ]
+      "keywords": [ "Python", "Java", "C", "C++", "Javascript", "Tensorflow", "Keras", "Bootstrap", "React", "Meteor", "MongoDB" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows OS", "Unix/Linux", "Git/GitHub" ]
+      "keywords": [ "Windows OS", "MacOS", "Unix/Linux", "Git/GitHub" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii at Manoa, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2024)",
+      "area": "Computer Science (expected Spring 2025)",
+      "studyType": "M.S.",
+      "startDate": "2024-08-21",
+      "endDate": "present",
+      "courses": [
+        "Advanced Artificial Intelligence",
+        "Machine Learning",
+        "Probability & Statistics"
+      ]
+    },
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science",
       "studyType": "B.S.",
       "startDate": "2021-08-23",
-      "endDate": "Present",
+      "endDate": "2024-05-11",
       "courses": [
         "Intro to Computer Science I",
         "Discrete Mathematics I",
@@ -45,7 +57,11 @@
         "Algorithms",
         "Software Engineering I",
         "Database Systems I",
-        "Operating Systems"
+        "Operating Systems",
+        "Machine-Level and Systems Programming",
+        "Software Engineering II",
+        "Video Game Design and Development",
+        "Machine Learning"
       ]
     }
   ],
@@ -55,7 +71,7 @@
       "position": "ICS 141 Lab Assistant",
       "website": "",
       "startDate": "2023-08-14",
-      "endDate": "Present",
+      "endDate": "2024-05-11",
       "summary": "Assisted students with coursework during ICS 141 recitations and additional office hours ",
       "highlights": [
         "Attend and support students in recitation sessions",
@@ -68,7 +84,7 @@
       "position": "ICS 111 Lab Assistant",
       "website": "",
       "startDate": "2023-09-07",
-      "endDate": "Present",
+      "endDate": "2024-05-11",
       "summary": "Assisted students with coursework during ICS 111 lab hours and additional office hours ",
       "highlights": [
         "Attend and support students in recitation sessions",
@@ -84,12 +100,26 @@
       "endDate": "Present",
       "summary": "Lead an ICS 111 lab section and additional office hours, assisting students with coursework and grading homework and quizzes",
       "highlights": [
-        "Lead and instruct ICS 111 lab section of 30 students",
+        "Lead and instruct ICS 111 lab section of 30+ students",
         "Actively monitor the ICS lab during assigned hours and assist all ICS 111 students with course material",
         "Attend scheduled staff meetings",
         "Grade student projects, assignments, exams and quizzes within the required time frame",
         "Maintain a lab section course website",
         "Enforce and uphold all course, department and university policies"
+      ]
+    },
+    {
+      "company": "UH Manoa",
+      "position": "Graduate Teaching Assistant",
+      "website": "",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Researched and developed computer vision and machine learning systems",
+      "highlights": [
+        "Build a system to rank photographs by their usefulness to sea mammal observation efforts",
+        "Run experiments to evaluate results",
+        "Meet with other researchers to understand project needs",
+        "Present findings through technical reports and oral presentations"
       ]
     }
   ],
