@@ -25,9 +25,9 @@ The project aimed to answer this question by analyzing and comparing the perform
 
 We used three diverse LLMs, each providing a different potential reason for performance discrepancy:
 <ul>
-<li>Llama 3.2, the latest version of Meta's Llama models. We hypothesized that a newer model would achieve greater performance on each task with each prompt.
-<li>GPT-Neo, an older model for comparison with the newer Llama 3.2.
-<li>Yi 1.5, a bilingual English and Chinese model developed by 01-ai. We were interested in the performance of a model trained for a different domain.
+<li>Llama 3.2, the latest version of Meta's Llama models. We hypothesized that a newer model would achieve greater performance on each task with each prompt.</li>
+<li>GPT-Neo, an older model for comparison with the newer Llama 3.2.</li>
+<li>Yi 1.5, a bilingual English and Chinese model developed by 01-ai. We were interested in the performance of a model trained for a different domain.</li>
 </ul>
 
 We also attained performance baselines with which to compare model performance using the BART and T5 models, and human performance.
@@ -36,9 +36,9 @@ We also attained performance baselines with which to compare model performance u
 
 In line with model selection, we also used three diverse classification datasets to add depth to our analysis:
 <ul>
-<li>Stanford Sentiment Treebank v2 (SST2),  a balanced dataset of positive and negative movie reviews.
-<li>Contextualized Affect Representations for Emotion Recognition (CARER), a 6-class imbalanced dataset of varoius emotions.
-<li>Hate Speech Dataset from a White Supremacy Forum, a heavily imbalanced binary dataset of thread posts labeled as either "hate" or "no hate". 
+<li>Stanford Sentiment Treebank v2 (SST2),  a balanced dataset of positive and negative movie reviews.</li>
+<li>Contextualized Affect Representations for Emotion Recognition (CARER), a 6-class imbalanced dataset of varoius emotions.</li>
+<li>Hate Speech Dataset from a White Supremacy Forum, a heavily imbalanced binary dataset of thread posts labeled as either "hate" or "no hate".</li>
 </ul>
 
 Few-shot and chain-of-thought prompts for each model incorporated examples from each respective training set to avoid data leakage.
