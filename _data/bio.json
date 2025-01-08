@@ -14,15 +14,14 @@
     ]
   },
   "interests": [
-    { "name": "Software Development" },
     { "name": "Artificial Intelligence" },
     { "name": "Machine Learning" },
-    { "name": "Robotics" }
+    { "name": "Software Development" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Python", "Java", "C", "C++", "Javascript", "Tensorflow", "Keras", "Bootstrap", "React", "Meteor", "MongoDB" ]
+      "keywords": [ "Python", "Tensorflow", "Keras", "PyTorch", "Scikit-learn", "Pandas", "Numpy", "Java", "C", "C++", "Javascript", "Bootstrap", "React", "Meteor", "MongoDB" ]
     },
     {
       "name": "Toolsets/OS",
@@ -35,7 +34,7 @@
       "area": "Computer Science (expected Spring 2025)",
       "studyType": "M.S.",
       "startDate": "2024-08-21",
-      "endDate": "present",
+      "endDate": "Present",
       "courses": [
         "Advanced Artificial Intelligence",
         "Machine Learning",
@@ -68,28 +67,17 @@
   "work": [
     {
       "company": "UH Manoa",
-      "position": "ICS 141 Lab Assistant",
+      "position": "Graduate Research Assistant",
       "website": "",
-      "startDate": "2023-08-14",
-      "endDate": "2024-05-11",
-      "summary": "Assisted students with coursework during ICS 141 recitations and additional office hours ",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Researched and developed computer vision and machine learning systems",
       "highlights": [
-        "Attend and support students in recitation sessions",
-        "Assist in the development of curricular support materials",
-        "Hold additional office hours in either the Natural Sciences Emporium or ICS Computing Laboratories"
-      ]
-    },
-    {
-      "company": "UH Manoa",
-      "position": "ICS 111 Lab Assistant",
-      "website": "",
-      "startDate": "2023-09-07",
-      "endDate": "2024-05-11",
-      "summary": "Assisted students with coursework during ICS 111 lab hours and additional office hours ",
-      "highlights": [
-        "Attend and support students in recitation sessions",
-        "Assist in the development of curricular support materials",
-        "Hold additional office hours in either the Natural Sciences Emporium or ICS Computing Laboratories"
+        "Conducted data preprocessing, training, and model evaluation using 1TB of data",
+        "Collaborated with researchers in multiple fields to develop/refine models and discuss preprocessing strategies",
+        "Utilized SotA machine learning algorithms and models such as YOLO and Xception",
+        "Presented findings through technical reports and oral presentations"
+
       ]
     },
     {
@@ -98,28 +86,41 @@
       "website": "",
       "startDate": "2024-01-02",
       "endDate": "Present",
-      "summary": "Lead an ICS 111 lab section and additional office hours, assisting students with coursework and grading homework and quizzes",
+      "summary": "Led an Intro to CS lab section and additional office hours, assisting students with coursework and grading homework and quizzes",
       "highlights": [
-        "Lead and instruct ICS 111 lab section of 30+ students",
-        "Actively monitor the ICS lab during assigned hours and assist all ICS 111 students with course material",
-        "Attend scheduled staff meetings",
-        "Grade student projects, assignments, exams and quizzes within the required time frame",
-        "Maintain a lab section course website",
-        "Enforce and uphold all course, department and university policies"
+        "Led and instructed ICS 111 lab sections of 30+ students",
+        "Actively monitored the ICS labs during assigned hours and assisted all ICS 111 students with course material",
+        "Graded student projects, assignments, exams and quizzes within the required time frame",
+        "Attended scheduled staff meetings",
+        "Maintained a lab section course website",
+        "Enforced and upheld all course, department and university policies"
       ]
     },
     {
       "company": "UH Manoa",
-      "position": "Graduate Teaching Assistant",
+      "position": "ICS 111 Lab Assistant",
       "website": "",
-      "startDate": "2024-05-01",
-      "endDate": "Present",
-      "summary": "Researched and developed computer vision and machine learning systems",
+      "startDate": "2023-09-07",
+      "endDate": "2024-05-11",
+      "summary": "Assisted students with coursework during Intro to CS lab hours and additional office hours ",
       "highlights": [
-        "Build a system to rank photographs by their usefulness to sea mammal observation efforts",
-        "Run experiments to evaluate results",
-        "Meet with other researchers to understand project needs",
-        "Present findings through technical reports and oral presentations"
+        "Attended and assisted students with coursework during ICS 111 lab hours",
+        "Assisted in the development of curricular support materials",
+        "Held additional office hours in either the Natural Sciences Emporium or ICS Computing Laboratories"
+
+      ]
+    },
+    {
+      "company": "UH Manoa",
+      "position": "ICS 141 Lab Assistant",
+      "website": "",
+      "startDate": "2023-08-14",
+      "endDate": "2024-05-11",
+      "summary": "Assisted students with coursework during Discrete Math recitations and additional office hours ",
+      "highlights": [
+        "Attended and assisted students with coursework during ICS 141 lab hours",
+        "Assisted in the development of curricular support materials",
+        "Held additional office hours in either the Natural Sciences Emporium or ICS Computing Laboratories"
       ]
     }
   ],
