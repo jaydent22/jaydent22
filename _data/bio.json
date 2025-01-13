@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jayden Tactay",
-    "label": "Student",
+    "label": "Graduate Assistant",
     "picture": "https://github.com/jaydent22.png",
     "email": "jctactay@hawaii.edu",
     "phone": "808-277-0703",
     "website": "https://jaydent22.github.io",
-    "summary": "I am an aspiring software engineer pursuing a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2024.",
+    "summary": "I am a Graduate Assistant pursuing an M.S. in Computer Science, with a keen interest in machine learning and software engineering. I expect to graduate in Spring, 2025.",
     "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jaydent22", "url": "https://github.com/jaydent22" },
